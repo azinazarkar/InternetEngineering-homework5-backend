@@ -1,0 +1,47 @@
+  
+{
+    "title": "A sample form2",
+    "id": "2",
+    "fields": [{
+            "name": "First_Name",
+            "title": "First Name",
+            "type": "Text",
+            "required": true
+        },
+        {
+            "name": "Loc",
+            "title": "Your Location",
+            "type": "Location",
+            "required": false
+        },
+        {
+            "name": "Age",
+            "title": "Age",
+            "type": "Date",
+            "options": [{
+                    "label": "TimeSlot1",
+                    "value": "22/3/78"
+                },
+                {
+                    "label": "TimeSlot2",
+                    "value": "22/11/57"
+                }
+            ],
+            "required": true
+        },
+        {
+            "name": "Request_Type",
+            "title": "Request Type",
+            "type": "Text",
+            "options": [{
+                    "label": "Help",
+                    "value": "Help"
+                },
+                {
+                    "label": "Info",
+                    "value": "Information"
+                }
+            ]
+        }
+    ]
+}
